@@ -1,0 +1,10 @@
+{
+  "LiferayTheme": {
+    "appServerPath": "/mnt/c/liferay/bundles/GROW-493/liferay-dxp-digital-enterprise-7.0-sp6/tomcat-8.0.32",
+    "deployPath": "/mnt/c/liferay/bundles/GROW-493/liferay-dxp-digital-enterprise-7.0-sp6/deploy",
+    "url": "http://localhost:8080",
+    "appServerPathPlugin": "/mnt/c/liferay/bundles/GROW-493/liferay-dxp-digital-enterprise-7.0-sp6/tomcat-8.0.32/webapps/frontend-user-profile-grow-theme",
+    "deployed": true,
+    "pluginName": "frontend-user-profile-grow-theme"
+  }
+}
