@@ -67,7 +67,6 @@
 				</div>
 			</#if>
 
-			<#include "${full_templates_path}/navigation.ftl" />
 		</div>
 	</aside>
 
