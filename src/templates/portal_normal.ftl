@@ -58,11 +58,18 @@
 	<aside class="col-md-3" id="userCard">
 		<div class="panel">
 			<#if page_group.isUser()>
-				<div class="aspect-ratio-bg-cover text-center user-container">
-					<div class="user-info">
+				<div class="nameplate">
+					<div class="nameplate-field">
 						<div class="aspect-ratio-bg-cover user-icon user-icon-xl" ${main_menu_style}></div>
+					</div>
 
-						<div class="h3">${htmlUtil.escape(main_menu_user_name)}</div>
+					<div class="nameplate-content">
+						<h3 class="nameplate-heading">${htmlUtil.escape(main_menu_user_name)}
+							<small class="nameplate-subheading">${htmlUtil.escape(main_menu_job_title)}</small>
+						</h3>
+						<a class="loop-icon" href="https://loop.liferay.com/web/guest/home/-/loop/people/_${htmlUtil.escape(main_menu_screen_name)}">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 1200 1440"><path d="M840 1080l360-360-360-360-239 240-241-240S3 723 0 720l360 360 180-180-120-120-60 60-120-120 120-120 480 480zm0-480l120 120-120 120-120-120 120-120z"/></svg>
+						</a>
 					</div>
 				</div>
 			</#if>
