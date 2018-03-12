@@ -21,39 +21,6 @@
 <@liferay.control_menu />
 
 <div class="container-fluid-1280" id="wrapper">
-	<header class="col-md-12 panel" id="banner" role="banner">
-		<div class="row">
-			<div id="heading">
-				<button aria-controls="navigation" aria-expanded="false" class="collapsed navbar-toggle" data-target="#navigationCollapse" data-toggle="collapse" type="button">
-					<span class="icon-bar"></span>
-
-					<span class="icon-bar"></span>
-
-					<span class="icon-bar"></span>
-				</button>
-
-				<nav class="user-personal-bar">
-					<ul class="nav navbar-nav pull-right">
-						<@liferay.user_personal_bar />
-					</ul>
-				<nav>
-
-				<div class="navbar-header navbar-header-left-xs">
-					<#if !page_group.isUser()>
-						<a class="${logo_css_class} pull-left" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-							<img alt="${logo_description}" height="64" src="${site_logo}" width="64" />
-						</a>
-					</#if>
-
-					<#if show_site_name>
-						<div class="pull-left site-name" title="#language_format ("go-to-x", [$site_name])">
-							${layout_set_title}
-						</div>
-					</#if>
-				</div>
-			</div>
-		</div>
-	</header>
 
 	<aside class="col-md-3" id="userCard">
 		<div class="panel">
