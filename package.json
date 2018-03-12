@@ -2,6 +2,7 @@
 	"name": "grow-theme-user-profile",
 	"version": "1.0.0",
 	"main": "package.json",
+	"license": "GPL-3.0",
 	"keywords": [
 		"liferay-theme"
 	],
