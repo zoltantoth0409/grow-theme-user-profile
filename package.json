@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"main": "package.json",
 	"license": "GPL-3.0",
+	"repository": "balcsida/grow-theme-user-profile",
 	"keywords": [
 		"liferay-theme"
 	],
