@@ -72,6 +72,9 @@
 
 	<section class="col-md-9" id="content">
 		<div class="panel">
+                <@liferay_portlet["runtime"]
+                    portletName="com_liferay_social_activities_web_portlet_SocialActivitiesPortlet"
+                />
 			<#if selectable>
 				<@liferay_util["include"] page=content_include />
 			<#else>
@@ -83,10 +86,6 @@
 					<@liferay_util["include"] page=content_include />
 				</@>
 			</#if>
-
-                <@liferay_portlet["runtime"]
-                    portletName="com_liferay_social_activities_web_portlet_SocialActivitiesPortlet"
-                />
 
 		</div>
 	</section>
