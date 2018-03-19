@@ -122,23 +122,6 @@ h6 > span {
 	margin-top: 3px;
 }
 
-
-/* Disable panel sliding */
-@media only screen and (min-width: 768px) {
-	body.open #wrapper {
-		padding-left: 0 !important;
-	}
-}
-@media only screen and (min-width: 768px) {
-	body.open .control-menu,
-	body.open .affix {
-		left: 0 !important;
-	}
-}
-#ControlMenu .container-fluid-1280 {
-
-}
-
 .truncate-text {
 	display: inline;
 }
