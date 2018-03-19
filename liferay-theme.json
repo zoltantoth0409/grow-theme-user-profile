@@ -3,8 +3,8 @@
     "appServerPath": "/mnt/c/liferay/bundles/GROW-493/liferay-dxp-digital-enterprise-7.0-sp6/tomcat-8.0.32",
     "deployPath": "/mnt/c/liferay/bundles/GROW-493/liferay-dxp-digital-enterprise-7.0-sp6/deploy",
     "url": "http://localhost:8080",
-    "appServerPathPlugin": "/mnt/c/liferay/bundles/GROW-493/liferay-dxp-digital-enterprise-7.0-sp6/tomcat-8.0.32/webapps/grow-theme-user-profile",
+    "appServerPathPlugin": "/mnt/c/Users/balcs/Documents/GitHub/grow-theme-user-profile/.web_bundle_build",
     "deployed": true,
-    "pluginName": "grow-theme-user-profile"
+    "pluginName": "Grow User Profile"
   }
 }
