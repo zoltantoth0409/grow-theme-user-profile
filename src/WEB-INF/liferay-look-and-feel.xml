@@ -5,7 +5,7 @@
 	<compatibility>
 		<version>7.0.0+</version>
 	</compatibility>
-	<theme id="frontend-user-profile-grow" name="frontend-user-profile-grow">
+	<theme id="frontend-user-profile-grow" name="Grow User Profile">
 		<template-extension>ftl</template-extension>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
