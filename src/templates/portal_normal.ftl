@@ -52,9 +52,12 @@
 
 	<section class="col-md-9" id="content">
 		<div class="panel">
+				<#assign VOID = freeMarkerPortletPreferences.setValue("portletSetupPortletDecoratorId", "barebone") />
                 <@liferay_portlet["runtime"]
+					defaultPreferences="${freeMarkerPortletPreferences}"
                     portletName="com_liferay_social_activities_web_portlet_SocialActivitiesPortlet"
                 />
+				<#assign VOID = freeMarkerPortletPreferences.reset() />
 			<#if selectable>
 				<@liferay_util["include"] page=content_include />
 			<#else>
