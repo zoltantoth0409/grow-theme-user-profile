@@ -39,6 +39,12 @@
 						</a>
 					</div>
 				</div>
+				<#assign VOID = freeMarkerPortletPreferences.setValue("portletSetupPortletDecoratorId", "barebone") />
+                <@liferay_portlet["runtime"]
+					defaultPreferences="${freeMarkerPortletPreferences}"
+                    portletName="com_liferay_owxp_subscribe_portlet_OWXPSubscribePortlet"
+                />
+				<#assign VOID = freeMarkerPortletPreferences.reset() />
 			</#if>
 
 		</div>
