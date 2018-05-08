@@ -1,9 +1,8 @@
 sudo: false
 language: node_js
 node_js:
-  - 'node'
   - 'lts/*'
-  - '6'
+  - 'node'
 after_success:
     - npm run coveralls
 before_install:
