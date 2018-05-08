@@ -1,5 +1,7 @@
 # Frontend User Profile Theme for Grow
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/balcsida/grow-theme-user-profile.svg)](https://greenkeeper.io/)
+
 This Liferay DXP theme is created to extend the default, out of the box Liferay User Profile theme: https://github.com/liferay/liferay-portal/tree/7.0.x/modules/apps/foundation/frontend-theme/frontend-theme-user-profile
 
 ## How to use the theme
