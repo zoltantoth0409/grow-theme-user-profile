@@ -5,7 +5,7 @@
 This Liferay DXP theme is created to extend the default, out of the box Liferay User Profile theme: https://github.com/liferay/liferay-portal/tree/7.0.x/modules/apps/foundation/frontend-theme/frontend-theme-user-profile
 
 ## How to use the theme
-1) `npm install -g gulp`
+1) `npm install gulp-cli -g`
 2) `npm install`
 3) Change liferay-theme.json according to your needs
 4) Use [Liferay gulp tasks](https://dev.liferay.com/develop/reference/-/knowledge_base/7-0/theme-gulp-tasks), e.g. `gulp deploy`
