@@ -2,6 +2,9 @@
 	"name": "grow-theme-user-profile",
 	"version": "1.0.1",
 	"main": "package.json",
+	"scripts": {
+		"test": "gulp build"
+	},
 	"license": "GPL-3.0",
 	"repository": "balcsida/grow-theme-user-profile",
 	"keywords": [
