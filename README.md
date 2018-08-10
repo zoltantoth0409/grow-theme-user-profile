@@ -7,7 +7,7 @@ This Liferay DXP theme is created to extend the default, out of the box Liferay 
 ## How to use the theme
 1) `npm install gulp-cli -g`
 2) `npm install`
-3) Change liferay-theme.json according to your needs
+3) `gulp init` to initialize your liferay-theme.json
 4) Use [Liferay gulp tasks](https://dev.liferay.com/develop/reference/-/knowledge_base/7-0/theme-gulp-tasks), e.g. `gulp deploy`
 5) Once deployed in Liferay, ensure the theme is selected for the given set of pages / page
 
