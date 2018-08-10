@@ -1,9 +1,16 @@
 sudo: false
 language: node_js
 node_js:
-  - 'lts/*'
-  - 'node'
+- lts/*
+- node
 after_success:
-    - npm run coveralls
+- npm run coveralls
 before_install:
-    - npm install -g npm
+- npm install -g npm
+deploy:
+  provider: releases
+  api_key:
+    secure: dO0jmS+PK5xdrWsAYERpShyuha1LFZUEyqQuxgCRtKQBg7DBwLShIYIe+xWCvVMKabxYcQDMXzgPbl6JNN4C7Ecz7yXbIdbnAZiXq8oX28Sw0TUbn8Srx7RJUGlRjyYUfpuPlw1vk3ovPuaUyMDZNs8sEhP88vwluhdUUTLOy8MqxyrBLU+p6ckiObEOBc9jAEX8bss5vGCertm34TfLRUuexZSTyO0H88VSLUVo9TWF2uW3FzMl0FYsvdRVjzX8Rr/RFgBpb74bN3mjRLgVqsaPDwPhpNwZlxedITZaKxtg4rhSadxv+MYO0rr70kdOi1WP5o2hpx/JHh1P+3c0sippIuXvNdIkNyw/0A+SPshAFBpJ1+9YucDAfT3CREG0jd52ZpZwr+bU1sLYdGAhZ1wnP/W3B5dGcq4T1DGR3y8vDQ1j7sTGJh1rekPHf22b4vwQhzZLunGOUfGuxy+DpY2Dyf2dAiO7Xg1k7EFsQOKjtBrLKO5H59oW3Ze/L/v6YbU3PqPb4lw8Ns87vLwvRz+0LiuasISq63j9ob1j2IiTmPmNkY1HpdCl5oOsYhi44facWHVaCRfdEyrBAO5td2GxQ8oOWPKocmJNDRwAWiE94Bjbnsd6C4kTXLYlXs/7/f3IHxXb7EPqHVySvXwbTw8vcHtGGvRE2a3jTVGGIh4=
+  file: dist/grow-theme-user-profile.war
+  on:
+    repo: balcsida/grow-theme-user-profile
